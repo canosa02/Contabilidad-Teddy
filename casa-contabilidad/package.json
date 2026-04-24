@@ -1,0 +1,16 @@
+{
+  "name": "casa-contabilidad",
+  "version": "1.0.0",
+  "description": "Personal home accounting dashboard",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
